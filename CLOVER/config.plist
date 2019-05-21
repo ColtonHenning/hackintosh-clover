@@ -97,6 +97,8 @@
 		<string>LastBootedVolume</string>
 		<key>Timeout</key>
 		<integer>5</integer>
+		<key>XMPDetection</key>
+		<string>Yes</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -122,6 +124,8 @@
 			<string>Recovery</string>
 			<string>Preboot</string>
 		</array>
+		<key>Language</key>
+		<string>en:0</string>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -150,6 +154,8 @@
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
+		<key>AppleRTC</key>
+		<true/>
 		<key>KernelPm</key>
 		<true/>
 		<key>KextsToPatch</key>
@@ -259,13 +265,11 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x3E7</string>
+		<string>0x3</string>
 		<key>MLB</key>
-		<string>C02XFLYYJ1GJADGJL</string>
+		<string>C02742306CDJ0PGUE</string>
 		<key>ROM</key>
-		<data>
-		cIXCg53M
-		</data>
+		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -280,7 +284,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02XFLYYJ1GJADGJL</string>
+		<string>C02742306CDJ0PGUE</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -310,7 +314,7 @@
 		<key>ProductName</key>
 		<string>iMac18,3</string>
 		<key>SerialNumber</key>
-		<string>C02XFLYYJ1GJ</string>
+		<string>C02VKVYRJ1GJ</string>
 		<key>SmUUID</key>
 		<string>0BFBE910-CD22-4221-A47F-67D32D028AC4</string>
 		<key>Trust</key>
@@ -320,8 +324,6 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>28A1285D-7B00-49E0-B2BE-7F3AB68EE504</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>

@@ -1,0 +1,53 @@
+
+Clover EFI installer log - Tue May 21 02:19:39 CDT 2019
+Installer version: v2.4k r4920 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *2.0 TB     disk0
+   1:         Microsoft Reserved                         134.2 MB   disk0s1
+   2:       Microsoft Basic Data Games and Storage       2.0 TB     disk0s2
+
+/dev/disk1 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         250.1 GB   disk1
+   1:           Windows Recovery                         471.9 MB   disk1s1
+   2:                        EFI NO NAME                 104.9 MB   disk1s2
+   3:         Microsoft Reserved                         16.8 MB    disk1s3
+   4:       Microsoft Basic Data Alpha                   247.7 GB   disk1s4
+   5:           Windows Recovery                         1.8 GB     disk1s5
+
+/dev/disk2 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                 Apple_APFS Container disk3         119.8 GB   disk2s2
+
+/dev/disk3 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +119.8 GB   disk3
+                                 Physical Store disk2s2
+   1:                APFS Volume Bravo                   52.5 GB    disk3s1
+   2:                APFS Volume Preboot                 65.7 MB    disk3s2
+   3:                APFS Volume Recovery                1.0 GB     disk3s3
+   4:                APFS Volume VM                      2.1 GB     disk3s4
+
+/dev/disk4 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *63.2 GB    disk4
+   1:               Windows_NTFS NIKON D5500             63.2 GB    disk4s1
+
+Target volume /Volumes/Bravo on disk3 is APFS on physical store disk2s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/Bravo/EFIROOTDIR/EFI folder to /Volumes/Bravo/EFI-Backups/r4920/2019-05-21-02h19/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
